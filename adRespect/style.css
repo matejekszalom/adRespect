@@ -1,0 +1,254 @@
+h1 {
+    font-size: 90px;
+    line-height: 99px;
+    font-weight: 700, bold;
+}
+
+h2 {
+    font-size: 28.5px;
+    color: rgba(239, 121, 37, 1);
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 67.5px;
+    line-height: 74px;
+}
+
+h4 {
+    font-size: 21.5px;
+    color: rgba(239, 121, 37, 1);
+}
+
+p {
+    margin-top: 24px;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+.btn-link {
+    text-decoration: none;
+    color: rgba(239, 121, 37, 1);
+    margin-top: 56px;
+}
+
+.btn-link:hover {
+  color: rgba(239, 121, 37, 1);
+  opacity: 0.7;
+}
+
+.btn-warning {
+    padding: 8px 47px;
+    color: white;
+    background-color: rgba(239, 121, 37, 1);
+    margin-top: 56px;
+}
+
+.btn-warning:hover {
+  opacity: 0.7;
+  background-color: rgba(239, 121, 37, 1);
+  color: white;
+}
+
+.img-one {
+    height: 430px;
+    margin-top: 32px;
+}
+.img-two {
+    height: 243px;
+}
+.img-three {
+    height: 267px;
+    margin-top: 32px;
+}
+.img-four {
+    height: 406px;
+}
+.navbar-brand {
+    margin-left: 85px;
+}
+
+.navbar-collapse {
+    margin-right: 85px;
+}
+
+.sectionText {
+    margin-top: 125.5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.toggle-switch{
+  display: flex;
+  height: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.toggler{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 50px;
+  height: 25px;
+  background-color: rgba(239, 121, 37, 1);
+  border-radius: 25px;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.toggler::before{
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top:50%;
+  transform: translateY(-50%);
+  right:4px;
+}
+
+.toggler:checked:before{
+  right: 55%;
+}
+
+section.pricing {
+margin-top: 80px;
+}
+
+.btn-group {
+  border-radius: 40px;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+hr {
+    display: none;
+}
+
+.pricing ul {
+    margin: 40px 0 80px 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+  margin-top: -30px;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+  border-bottom: 1px #EDEDED solid;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 3px;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 1;
+  transition: all 0.2s;
+  background-color: rgba(239, 121, 37, 1);
+  border-color: rgba(239, 121, 37, 1);
+}
+
+.swiper {
+  margin-bottom: 64px;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+  
+}
+
+footer {
+    min-height: 25vh;
+    background-color: black;
+    display: flex;
+}
+
+footer span {
+    color: white;
+    text-decoration: none;
+    float: right;
+    margin-top: 45px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+footer svg {
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    background-color: #F8F8F8;
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 0.7;
+  }
+
+  h1 {
+      font-size: 70px;
+  }
+}
